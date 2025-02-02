@@ -7,7 +7,7 @@ const videoSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "User",
     },
-    videoile: {
+    video: {
       type: String,
       required: true,
     },
